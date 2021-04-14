@@ -4,7 +4,7 @@ const { User } = require("../models/userAuth.model")
 const { UserDto } = require("../DTO/userDto")
 const bcrypt = require("bcrypt")
 const jwt = require("jsonwebtoken")
-const jwt_key = require("../config/token.config")
+const {jwt_key} = require("../config/token.config")
 
 //signup as a new user
 router.post('/signup', async (req, res) => {

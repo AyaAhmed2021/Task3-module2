@@ -13,7 +13,9 @@ const UserDto = ({_id, name, email}) => ({
 })
 
 
-module.exports = { UserDto }
-module.exports = {visitorDto}
+module.exports = {
+    UserDto,
+    visitorDto
+    }
 
 
